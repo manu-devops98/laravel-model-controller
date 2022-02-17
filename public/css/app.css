@@ -1,0 +1,29 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .card {
+  width: calc(25% - 2em - 2px - 1em);
+  border: 1px solid crimson;
+  margin: 1em;
+  padding: 0.5em;
+  background-color: black;
+  color: white;
+}
+
+.container .card h1,
+.container .card h3,
+.container .card h4,
+.container .card h5 {
+  color: red;
+  font-size: 1.3em;
+}
+
+.container .card span {
+  color: white;
+  font-size: 0.7em;
+}
+
